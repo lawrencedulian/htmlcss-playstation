@@ -1,0 +1,54 @@
+img {
+    max-width: 100%;
+}
+
+:root {
+    --btn-orange: #CD3D0F;
+}
+
+/* UTILITIES */
+/* COLOR */
+
+
+/* HEADER */
+.header-top {
+    background-color: black;
+}
+
+.header-bottom {
+    height: 80px;
+}
+
+.header_top_logo {
+    width: 100px;
+}
+
+#jumbotron,
+#jumbotron2 {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    height: 680px;
+}
+
+#jumbotron .container {
+    margin-top: 5em;
+}
+
+#jumbotron h1 {
+    font-size: 3rem;
+}
+
+#jumbotron2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 800px;
+}
+
+/* PS5 */
+#ps5 .title-bottom {
+    font-size: 1.5rem;
+}
