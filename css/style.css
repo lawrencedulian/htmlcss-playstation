@@ -1,19 +1,48 @@
+/* RESET */
 img {
     max-width: 100%;
 }
 
+/* COMMON */
+.btn_buy {
+    background-color: var(--btn-orange) ;
+}
+
+.btn_info {
+    background-color: var(--btn-blue);
+    color: white;
+    padding: .5em;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+.btn_explore {
+    background-color: var(--btn-gray);
+    color: var(--btn-blue);
+    border-radius: 20px;
+}
+/* /COMMON */
+    
+
+/* UTILITIES */
 :root {
     --btn-orange: #CD3D0F;
+    --btn-blue: #2D64E6;
+    --btn-gray: #D9DADC;
     --bg-darkgray: #1F1F1F;
     --bg-lightgray: #BEBCBB;
     --bg-darkblue: #161C3B;
     --bg-lightblue: #00439C;
 }
+/* /UTILITIES */
 
-/* UTILITIES */
 /* HEADER */
 .header-top {
     background-color: black;
+}
+
+header a {
+    text-decoration: none;
 }
 
 .header-bottom {
@@ -23,6 +52,7 @@ img {
 .header_top_logo {
     width: 100px;
 }
+/* /HEADER */
 
 /* JUMBOTRON */
 #jumbotron,
@@ -49,6 +79,7 @@ img {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     height: 800px;
 }
+/* /JUMBOTRON */
 
 /* PS5 */
 #ps5 .title-bottom {
@@ -58,11 +89,13 @@ img {
 #ps5 .list_items .item-name {
     text-align: center;
 }
+/* /PS5 */
 
 /* NEW RELEASE */
 #new-release {
     background-color: var(--bg-darkgray);
 }
+/* /NEW-RELEASE */
 
 /* BANNER */
 #banner {
@@ -72,8 +105,23 @@ img {
 #banner2 {
     background-color: var(--bg-darkblue);
 }
+/* /BANNER */
 
 /* FOOTER */
 footer {
     background-color: var(--bg-lightblue);
 }
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li {
+    margin-bottom: 1rem;
+}
+/* /FOOTER */
